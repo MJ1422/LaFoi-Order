@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookie Order Form</title>
+
+</head>
+
+<body>
+
+<div class="container">
+    
+    <!-- Left Panel -->
+    <div class="left-panel">
+        <h2>Cookie Order Form</h2>
+        
+        <form
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeAYGIe--DSQEhzJndfRSk4JJIBRa7pkz1aIDoWUUDA1d9xVw/formResponse">
+
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Contact No." required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+                <select name="orderType" id="OrderType" required>
+                    <option value="">Order Type</option>
+                    <option value="pickup">Pick Up</option>
+                    <option value="delivery">Delivery</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <textarea placeholder="Address" rows="2" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <select name="" required>
+                    <option value="">Select Cookie Type</option>
+                    <option>Regular</option>
+                    <option>Special</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Product" required>
+            </div>
+
+            <div class="form-group">
+                <input type="number" placeholder="Qty" min="1" required>
+            </div>
+
+            <button class="btn">Submit Order</button>
+        </form>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+        Freshly Baked Cookies <br>
+        Made with Love 🍪
+    </div>
+
+</div>
+
+</body>
+</html>
